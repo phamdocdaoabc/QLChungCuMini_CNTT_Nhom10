@@ -1,0 +1,13 @@
+D:\learn to code\Du An C#\QLChungCuMini\bin\Debug\QLChungCuMini.exe.config
+D:\learn to code\Du An C#\QLChungCuMini\bin\Debug\QLChungCuMini.exe
+D:\learn to code\Du An C#\QLChungCuMini\bin\Debug\QLChungCuMini.pdb
+D:\learn to code\Du An C#\QLChungCuMini\obj\Debug\QLChungCuMini.csproj.AssemblyReference.cache
+D:\learn to code\Du An C#\QLChungCuMini\obj\Debug\QLChungCuMini.fLogin.resources
+D:\learn to code\Du An C#\QLChungCuMini\obj\Debug\QLChungCuMini.Properties.Resources.resources
+D:\learn to code\Du An C#\QLChungCuMini\obj\Debug\QLChungCuMini.csproj.GenerateResource.cache
+D:\learn to code\Du An C#\QLChungCuMini\obj\Debug\QLChungCuMini.csproj.CoreCompileInputs.cache
+D:\learn to code\Du An C#\QLChungCuMini\obj\Debug\QLChungCuMini.exe
+D:\learn to code\Du An C#\QLChungCuMini\obj\Debug\QLChungCuMini.pdb
+D:\learn to code\Du An C#\QLChungCuMini\obj\Debug\QLChungCuMini.fDangKy.resources
+D:\learn to code\Du An C#\QLChungCuMini\obj\Debug\QLChungCuMini.fHome.resources
+D:\learn to code\Du An C#\QLChungCuMini\obj\Debug\QLChungCuMini.fQuanLyPhong.resources
