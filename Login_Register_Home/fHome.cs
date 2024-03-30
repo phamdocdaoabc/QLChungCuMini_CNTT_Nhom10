@@ -93,10 +93,7 @@ namespace QLChungCuMini
 
         }
 
-        private void btnQLHopDong_Click(object sender, EventArgs e)
-        {
-
-        }
+      
 
         private void panel2_Paint(object sender, PaintEventArgs e)
         {
@@ -137,6 +134,34 @@ namespace QLChungCuMini
 
         private void btnQLKH_Click_1(object sender, EventArgs e)
         {
+            
+            QLKhachHang formKhachHang = new QLKhachHang();
+            formKhachHang.Show();
+
+        }
+
+        private void btnQLKhach_Click(object sender, EventArgs e)
+        {
+            
+
+            QLKhachHang formKhachHang = new QLKhachHang();
+            formKhachHang.Show();
+            
+
+        }
+
+        private void btnQLHD_Click(object sender, EventArgs e)
+        {
+            QlHopDong hd = new QlHopDong();
+            hd.Show();
+
+            
+        }
+
+        private void btnQLHopDong_Click(object sender, EventArgs e)
+        {
+            QlHopDong hd = new QlHopDong();
+            hd.Show();
 
         }
     }

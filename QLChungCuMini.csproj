@@ -61,6 +61,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="QlHopDong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QlHopDong.Designer.cs">
+      <DependentUpon>QlHopDong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLKhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLKhachHang.Designer.cs">
+      <DependentUpon>QLKhachHang.cs</DependentUpon>
+    </Compile>
     <Compile Include="QuanLyPhong\fQuanLyPhong.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -91,6 +103,12 @@
     <Compile Include="Login_Register_Home\TaiKhoanAdmin.cs" />
     <Compile Include="QuanLyPhong\QuanLyPhong.cs" />
     <Compile Include="QuanLyPhong\QuanLyPhongDAO.cs" />
+    <EmbeddedResource Include="QlHopDong.resx">
+      <DependentUpon>QlHopDong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLKhachHang.resx">
+      <DependentUpon>QLKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="QuanLyPhong\fQuanLyPhong.resx">
       <DependentUpon>fQuanLyPhong.cs</DependentUpon>
     </EmbeddedResource>
@@ -108,6 +126,7 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include=".editorconfig" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

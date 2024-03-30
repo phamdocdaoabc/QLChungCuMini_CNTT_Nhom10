@@ -11,3 +11,18 @@ D:\learn to code\Du An C#\QLChungCuMini\obj\Debug\QLChungCuMini.pdb
 D:\learn to code\Du An C#\QLChungCuMini\obj\Debug\QLChungCuMini.fDangKy.resources
 D:\learn to code\Du An C#\QLChungCuMini\obj\Debug\QLChungCuMini.fHome.resources
 D:\learn to code\Du An C#\QLChungCuMini\obj\Debug\QLChungCuMini.fQuanLyPhong.resources
+D:\C#\QuanLy_phongtro nhom\QLChungCuMini_CNTT_Nhom10\bin\Debug\QLChungCuMini.exe.config
+D:\C#\QuanLy_phongtro nhom\QLChungCuMini_CNTT_Nhom10\bin\Debug\QLChungCuMini.exe
+D:\C#\QuanLy_phongtro nhom\QLChungCuMini_CNTT_Nhom10\bin\Debug\QLChungCuMini.pdb
+D:\C#\QuanLy_phongtro nhom\QLChungCuMini_CNTT_Nhom10\obj\Debug\QLChungCuMini.csproj.AssemblyReference.cache
+D:\C#\QuanLy_phongtro nhom\QLChungCuMini_CNTT_Nhom10\obj\Debug\QLChungCuMini.fQuanLyPhong.resources
+D:\C#\QuanLy_phongtro nhom\QLChungCuMini_CNTT_Nhom10\obj\Debug\QLChungCuMini.fDangKy.resources
+D:\C#\QuanLy_phongtro nhom\QLChungCuMini_CNTT_Nhom10\obj\Debug\QLChungCuMini.fHome.resources
+D:\C#\QuanLy_phongtro nhom\QLChungCuMini_CNTT_Nhom10\obj\Debug\QLChungCuMini.fLogin.resources
+D:\C#\QuanLy_phongtro nhom\QLChungCuMini_CNTT_Nhom10\obj\Debug\QLChungCuMini.Properties.Resources.resources
+D:\C#\QuanLy_phongtro nhom\QLChungCuMini_CNTT_Nhom10\obj\Debug\QLChungCuMini.csproj.GenerateResource.cache
+D:\C#\QuanLy_phongtro nhom\QLChungCuMini_CNTT_Nhom10\obj\Debug\QLChungCuMini.csproj.CoreCompileInputs.cache
+D:\C#\QuanLy_phongtro nhom\QLChungCuMini_CNTT_Nhom10\obj\Debug\QLChungCuMini.exe
+D:\C#\QuanLy_phongtro nhom\QLChungCuMini_CNTT_Nhom10\obj\Debug\QLChungCuMini.pdb
+D:\C#\QuanLy_phongtro nhom\QLChungCuMini_CNTT_Nhom10\obj\Debug\QLChungCuMini.QLKhachHang.resources
+D:\C#\QuanLy_phongtro nhom\QLChungCuMini_CNTT_Nhom10\obj\Debug\QLChungCuMini.QlHopDong.resources
