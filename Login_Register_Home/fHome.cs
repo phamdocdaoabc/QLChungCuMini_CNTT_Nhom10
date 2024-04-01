@@ -75,7 +75,8 @@ namespace QLChungCuMini
 
         private void btnPCCC_Click(object sender, EventArgs e)
         {
-
+            QLTBPCCC formTBPCCC = new QLTBPCCC();
+            formTBPCCC.Show();
         }
 
         private void contextMenuStrip1_Opening(object sender, CancelEventArgs e)
@@ -163,6 +164,12 @@ namespace QLChungCuMini
             QlHopDong hd = new QlHopDong();
             hd.Show();
 
+        }
+
+        private void btnQLPCCC_Click(object sender, EventArgs e)
+        {
+            QLTBPCCC formTBPCCC = new QLTBPCCC();
+            formTBPCCC.Show();
         }
     }
 }

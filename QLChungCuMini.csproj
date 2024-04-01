@@ -61,6 +61,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="QlHopDong.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +77,12 @@
     </Compile>
     <Compile Include="QLKhachHang.Designer.cs">
       <DependentUpon>QLKhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLTBPCCC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLTBPCCC.Designer.cs">
+      <DependentUpon>QLTBPCCC.cs</DependentUpon>
     </Compile>
     <Compile Include="QuanLyPhong\fQuanLyPhong.cs">
       <SubType>Form</SubType>
@@ -109,6 +120,9 @@
     <EmbeddedResource Include="QLKhachHang.resx">
       <DependentUpon>QLKhachHang.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="QLTBPCCC.resx">
+      <DependentUpon>QLTBPCCC.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="QuanLyPhong\fQuanLyPhong.resx">
       <DependentUpon>fQuanLyPhong.cs</DependentUpon>
     </EmbeddedResource>
@@ -131,11 +145,6 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -231,6 +240,24 @@
     <Folder Include="QuanLyKhach\" />
     <Folder Include="QuanLyTBPCCC\" />
     <Folder Include="QuanLyTienDV\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reset.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

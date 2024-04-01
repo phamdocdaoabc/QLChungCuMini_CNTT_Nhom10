@@ -100,7 +100,7 @@ namespace QLChungCuMini
             // 
             this.pictureBox4.Image = global::QLChungCuMini.Properties.Resources.icons8_c_sharp_logo_100;
             this.pictureBox4.Location = new System.Drawing.Point(43, 15);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(204, 167);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -116,7 +116,7 @@ namespace QLChungCuMini
             this.label1.Location = new System.Drawing.Point(65, 709);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(117, 18);
+            this.label1.Size = new System.Drawing.Size(98, 15);
             this.label1.TabIndex = 12;
             this.label1.Text = "@nhom10studio";
             // 
@@ -136,7 +136,7 @@ namespace QLChungCuMini
             this.btnPCCC.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnPCCC.Image = global::QLChungCuMini.Properties.Resources.icons8_fire_station_32;
             this.btnPCCC.Location = new System.Drawing.Point(23, 614);
-            this.btnPCCC.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnPCCC.Margin = new System.Windows.Forms.Padding(4);
             this.btnPCCC.Name = "btnPCCC";
             this.btnPCCC.Size = new System.Drawing.Size(267, 80);
             this.btnPCCC.TabIndex = 8;
@@ -236,7 +236,7 @@ namespace QLChungCuMini
             this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel6.Controls.Add(this.btnQLKH);
             this.panel6.Location = new System.Drawing.Point(7, 613);
-            this.panel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel6.Margin = new System.Windows.Forms.Padding(4);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(529, 113);
             this.panel6.TabIndex = 2;
@@ -264,7 +264,7 @@ namespace QLChungCuMini
             this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel8.Controls.Add(this.btnQLP);
             this.panel8.Location = new System.Drawing.Point(541, 383);
-            this.panel8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel8.Margin = new System.Windows.Forms.Padding(4);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(533, 105);
             this.panel8.TabIndex = 1;
@@ -293,7 +293,7 @@ namespace QLChungCuMini
             this.labTenTaiKhoan.Location = new System.Drawing.Point(225, 64);
             this.labTenTaiKhoan.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labTenTaiKhoan.Name = "labTenTaiKhoan";
-            this.labTenTaiKhoan.Size = new System.Drawing.Size(156, 25);
+            this.labTenTaiKhoan.Size = new System.Drawing.Size(124, 20);
             this.labTenTaiKhoan.TabIndex = 3;
             this.labTenTaiKhoan.Text = "Tên Tài Khoản";
             this.labTenTaiKhoan.Click += new System.EventHandler(this.labTenTaiKhoan_Click);
@@ -306,7 +306,7 @@ namespace QLChungCuMini
             this.label4.Location = new System.Drawing.Point(312, 18);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(73, 25);
+            this.label4.Size = new System.Drawing.Size(59, 20);
             this.label4.TabIndex = 4;
             this.label4.Text = "Admin";
             // 
@@ -335,7 +335,7 @@ namespace QLChungCuMini
             this.panel10.BackColor = System.Drawing.Color.DarkGoldenrod;
             this.panel10.Controls.Add(this.button7);
             this.panel10.Location = new System.Drawing.Point(799, 209);
-            this.panel10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel10.Margin = new System.Windows.Forms.Padding(4);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(272, 154);
             this.panel10.TabIndex = 15;
@@ -360,7 +360,7 @@ namespace QLChungCuMini
             this.panel9.BackColor = System.Drawing.SystemColors.GrayText;
             this.panel9.Controls.Add(this.button6);
             this.panel9.Location = new System.Drawing.Point(543, 208);
-            this.panel9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel9.Margin = new System.Windows.Forms.Padding(4);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(248, 155);
             this.panel9.TabIndex = 14;
@@ -387,7 +387,7 @@ namespace QLChungCuMini
             this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel7.Controls.Add(this.btnQLPCCC);
             this.panel7.Location = new System.Drawing.Point(7, 495);
-            this.panel7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel7.Margin = new System.Windows.Forms.Padding(4);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(529, 110);
             this.panel7.TabIndex = 13;
@@ -406,6 +406,7 @@ namespace QLChungCuMini
             this.btnQLPCCC.Text = "Quản lý Thiết bị PCCC";
             this.btnQLPCCC.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnQLPCCC.UseVisualStyleBackColor = true;
+            this.btnQLPCCC.Click += new System.EventHandler(this.btnQLPCCC_Click);
             // 
             // panel5
             // 
@@ -413,7 +414,7 @@ namespace QLChungCuMini
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel5.Controls.Add(this.btnQLHD);
             this.panel5.Location = new System.Drawing.Point(7, 382);
-            this.panel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel5.Margin = new System.Windows.Forms.Padding(4);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(527, 105);
             this.panel5.TabIndex = 12;
@@ -440,7 +441,7 @@ namespace QLChungCuMini
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel3.Controls.Add(this.btnQLTDV);
             this.panel3.Location = new System.Drawing.Point(541, 495);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(533, 110);
             this.panel3.TabIndex = 11;
@@ -493,7 +494,7 @@ namespace QLChungCuMini
             this.btnOut.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnOut.Image = global::QLChungCuMini.Properties.Resources.icons8_log_out_30;
             this.btnOut.Location = new System.Drawing.Point(268, 105);
-            this.btnOut.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnOut.Margin = new System.Windows.Forms.Padding(4);
             this.btnOut.Name = "btnOut";
             this.btnOut.Size = new System.Drawing.Size(199, 47);
             this.btnOut.TabIndex = 9;
@@ -506,7 +507,7 @@ namespace QLChungCuMini
             // 
             this.pictureBox2.Image = global::QLChungCuMini.Properties.Resources.ảnh_bìa_home;
             this.pictureBox2.Location = new System.Drawing.Point(-1, 1);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(1081, 198);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -521,7 +522,7 @@ namespace QLChungCuMini
             this.ClientSize = new System.Drawing.Size(1387, 735);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "fHome";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Home";
