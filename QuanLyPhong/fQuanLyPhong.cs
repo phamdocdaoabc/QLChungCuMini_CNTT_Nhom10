@@ -279,5 +279,10 @@ namespace QLChungCuMini
                 txtNoiThat.Text = dataGridViewPhong.SelectedRows[0].Cells[7].Value.ToString();
             }
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

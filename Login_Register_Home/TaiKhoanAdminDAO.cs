@@ -10,7 +10,7 @@ namespace QLChungCuMini
     internal class TaiKhoanAdminDAO
     {
         // Khởi tạo kết nối
-        private static string stringConnection = @"Data Source=desktop-7904pml\sqlexpress;Initial Catalog=QLChungCuMini;Integrated Security=True;Encrypt=False";
+        private static string stringConnection = @"Data Source=DESKTOP-0HMGH3I;Initial Catalog=QLChungCuMini;Integrated Security=True;Encrypt=False";
 
 
      // data đức dz

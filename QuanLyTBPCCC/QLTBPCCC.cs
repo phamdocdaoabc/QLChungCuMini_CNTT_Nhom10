@@ -6,6 +6,7 @@ using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -16,7 +17,7 @@ namespace QLChungCuMini
 
         SqlConnection connection;
         SqlCommand command;
-        string str = "Data Source=desktop-7904pml\\sqlexpress;Initial Catalog=QLChungCuMini;Integrated Security=True;Encrypt=False";
+        string str = @"Data Source=DESKTOP-0HMGH3I;Initial Catalog=QLChungCuMini;Integrated Security=True;Encrypt=False";
 
         //data đức dz
         // String str = "Data Source=LAPTOP-ACERI5\\SQLEXPRESS;Initial Catalog=QLChungCuMini;Integrated Security=True;";
@@ -191,11 +192,17 @@ namespace QLChungCuMini
             txtTienMua.Text = "";
             txtTienBaoDuong.Text = "";
         }
+        Thread th;
         private void btnExit_Click(object sender, EventArgs e)
         {
-            fHome fh = new fHome();
-            fh.Show();
+            th = new Thread(openNewFormHome);
+            th.SetApartmentState(ApartmentState.STA);
+            th.Start();
             this.Close();
+        }
+        private void openNewFormHome()
+        {
+            Application.Run(new fHome());
         }
         private void btnSearch_Click(object sender, EventArgs e)
         {
@@ -365,6 +372,11 @@ namespace QLChungCuMini
         }
 
         private void cbSearch_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtID_TextChanged(object sender, EventArgs e)
         {
 
         }

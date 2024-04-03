@@ -431,7 +431,7 @@
             this.pictureBox1.Image = global::QLChungCuMini.Properties.Resources.logo_c_;
             this.pictureBox1.Location = new System.Drawing.Point(42, 15);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(132, 96);
+            this.pictureBox1.Size = new System.Drawing.Size(132, 103);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
@@ -449,6 +449,7 @@
             this.label1.Size = new System.Drawing.Size(345, 41);
             this.label1.TabIndex = 0;
             this.label1.Text = "Quản Lý Phòng Trọ ";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // fQuanLyPhong
             // 

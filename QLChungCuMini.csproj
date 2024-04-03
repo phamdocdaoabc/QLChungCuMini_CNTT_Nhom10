@@ -66,22 +66,22 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="QlHopDong.cs">
+    <Compile Include="QuanLyHopDong\QlHopDong.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="QlHopDong.Designer.cs">
+    <Compile Include="QuanLyHopDong\QlHopDong.Designer.cs">
       <DependentUpon>QlHopDong.cs</DependentUpon>
     </Compile>
-    <Compile Include="QLKhachHang.cs">
+    <Compile Include="QuanLyKhach\QLKhachHang.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="QLKhachHang.Designer.cs">
+    <Compile Include="QuanLyKhach\QLKhachHang.Designer.cs">
       <DependentUpon>QLKhachHang.cs</DependentUpon>
     </Compile>
-    <Compile Include="QLTBPCCC.cs">
+    <Compile Include="QuanLyTBPCCC\QLTBPCCC.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="QLTBPCCC.Designer.cs">
+    <Compile Include="QuanLyTBPCCC\QLTBPCCC.Designer.cs">
       <DependentUpon>QLTBPCCC.cs</DependentUpon>
     </Compile>
     <Compile Include="QuanLyPhong\fQuanLyPhong.cs">
@@ -114,13 +114,13 @@
     <Compile Include="Login_Register_Home\TaiKhoanAdmin.cs" />
     <Compile Include="QuanLyPhong\QuanLyPhong.cs" />
     <Compile Include="QuanLyPhong\QuanLyPhongDAO.cs" />
-    <EmbeddedResource Include="QlHopDong.resx">
+    <EmbeddedResource Include="QuanLyHopDong\QlHopDong.resx">
       <DependentUpon>QlHopDong.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="QLKhachHang.resx">
+    <EmbeddedResource Include="QuanLyKhach\QLKhachHang.resx">
       <DependentUpon>QLKhachHang.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="QLTBPCCC.resx">
+    <EmbeddedResource Include="QuanLyTBPCCC\QLTBPCCC.resx">
       <DependentUpon>QLTBPCCC.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="QuanLyPhong\fQuanLyPhong.resx">
@@ -236,9 +236,6 @@
     <None Include="Resources\icons8-c-200.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="QuanLyHopDong\" />
-    <Folder Include="QuanLyKhach\" />
-    <Folder Include="QuanLyTBPCCC\" />
     <Folder Include="QuanLyTienDV\" />
   </ItemGroup>
   <ItemGroup>

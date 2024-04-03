@@ -42,3 +42,6 @@ D:\Workspace\C#\qlCCMN\obj\Debug\QLChungCuMini.csproj.CoreCompileInputs.cache
 D:\Workspace\C#\qlCCMN\obj\Debug\QLChungCuMini.exe
 D:\Workspace\C#\qlCCMN\obj\Debug\QLChungCuMini.pdb
 D:\Workspace\C#\qlCCMN\obj\Debug\QLChungCuMini.QLTBPCCC.resources
+D:\learn to code\Du An C#\QLChungCuMini\obj\Debug\QLChungCuMini.QlHopDong.resources
+D:\learn to code\Du An C#\QLChungCuMini\obj\Debug\QLChungCuMini.QLKhachHang.resources
+D:\learn to code\Du An C#\QLChungCuMini\obj\Debug\QLChungCuMini.QLTBPCCC.resources

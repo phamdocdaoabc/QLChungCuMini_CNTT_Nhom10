@@ -75,8 +75,14 @@ namespace QLChungCuMini
 
         private void btnPCCC_Click(object sender, EventArgs e)
         {
-            QLTBPCCC formTBPCCC = new QLTBPCCC();
-            formTBPCCC.Show();
+            th = new Thread(openNewFormQLPCCC);
+            th.SetApartmentState(ApartmentState.STA);
+            th.Start();
+            this.Close();
+        }
+        private void openNewFormQLPCCC()
+        {
+            Application.Run(new QLTBPCCC());
         }
 
         private void contextMenuStrip1_Opening(object sender, CancelEventArgs e)
@@ -135,41 +141,50 @@ namespace QLChungCuMini
 
         private void btnQLKH_Click_1(object sender, EventArgs e)
         {
-            
-            QLKhachHang formKhachHang = new QLKhachHang();
-            formKhachHang.Show();
-
+            th = new Thread(openNewFormQLKhach);
+            th.SetApartmentState(ApartmentState.STA);
+            th.Start();
+            this.Close();
         }
 
         private void btnQLKhach_Click(object sender, EventArgs e)
         {
-            
-
-            QLKhachHang formKhachHang = new QLKhachHang();
-            formKhachHang.Show();
-            
-
+            th = new Thread(openNewFormQLKhach);
+            th.SetApartmentState(ApartmentState.STA);
+            th.Start();
+            this.Close();
+        }
+        private void openNewFormQLKhach()
+        {
+            Application.Run(new QLKhachHang());
         }
 
         private void btnQLHD_Click(object sender, EventArgs e)
         {
-            QlHopDong hd = new QlHopDong();
-            hd.Show();
-
-            
+            th = new Thread(openNewFormQLHopDong);
+            th.SetApartmentState(ApartmentState.STA);
+            th.Start();
+            this.Close();
         }
 
         private void btnQLHopDong_Click(object sender, EventArgs e)
         {
-            QlHopDong hd = new QlHopDong();
-            hd.Show();
-
+            th = new Thread(openNewFormQLHopDong);
+            th.SetApartmentState(ApartmentState.STA);
+            th.Start();
+            this.Close();
+        }
+        private void openNewFormQLHopDong()
+        {
+            Application.Run(new QlHopDong());
         }
 
         private void btnQLPCCC_Click(object sender, EventArgs e)
         {
-            QLTBPCCC formTBPCCC = new QLTBPCCC();
-            formTBPCCC.Show();
+            th = new Thread(openNewFormQLPCCC);
+            th.SetApartmentState(ApartmentState.STA);
+            th.Start();
+            this.Close();
         }
     }
 }

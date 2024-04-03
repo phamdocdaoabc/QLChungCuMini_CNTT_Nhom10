@@ -6,6 +6,7 @@ using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -16,7 +17,7 @@ namespace QLChungCuMini
 
         SqlConnection connection;
         SqlCommand command;
-        String str = "Data Source=DESKTOP-0HMGH3I;Initial Catalog=QLChungCuMini;Integrated Security=True;Encrypt=False";
+        String str = @"Data Source=DESKTOP-0HMGH3I;Initial Catalog=QLChungCuMini;Integrated Security=True;Encrypt=False";
 
         //data đức dz
         // String str = "Data Source=LAPTOP-ACERI5\\SQLEXPRESS;Initial Catalog=QLChungCuMini;Integrated Security=True;";
@@ -168,14 +169,18 @@ namespace QLChungCuMini
             loadData();
 
         }
-
+        Thread th;
         private void bt__Click(object sender, EventArgs e)
         {
-            fHome fh = new fHome();
-            fh.Show();
+            th = new Thread(openNewFormHome);
+            th.SetApartmentState(ApartmentState.STA);
+            th.Start();
             this.Close();
         }
-
+        private void openNewFormHome()
+        {
+            Application.Run(new fHome());
+        }
 
 
 
@@ -261,6 +266,16 @@ namespace QLChungCuMini
                     MessageBox.Show("Không tìm thấy Hợp Đồng với ID phòng này!");
                 }
             }
+
+        }
+
+        private void txt_id_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
 
         }
     }
