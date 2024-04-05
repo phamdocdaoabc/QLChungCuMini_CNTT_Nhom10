@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "D:\\learn to code\\Du An C#\\QLChungCuMini\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|D:\\learn to code\\Du An C#\\QLChungCuMini\\quanlytbpccc\\qltbpccc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|solutionrelative:quanlytbpccc\\qltbpccc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|d:\\learn to code\\du an c#\\qlchungcumini\\quanlyphong\\fquanlyphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|solutionrelative:quanlyphong\\fquanlyphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|D:\\learn to code\\Du An C#\\QLChungCuMini\\quanlyhopdong\\qlhopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|d:\\learn to code\\du an c#\\qlchungcumini\\quanlyhopdong\\qlhopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|solutionrelative:quanlyhopdong\\qlhopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -15,8 +15,8 @@
       "RelativeMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|solutionrelative:quanlykhach\\qlkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|d:\\learn to code\\du an c#\\qlchungcumini\\quanlyphong\\fquanlyphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|solutionrelative:quanlyphong\\fquanlyphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|d:\\learn to code\\du an c#\\qlchungcumini\\quanlytbpccc\\qltbpccc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|solutionrelative:quanlytbpccc\\qltbpccc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -39,25 +39,13 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "fQuanLyPhong.cs [Design]",
-              "DocumentMoniker": "D:\\learn to code\\Du An C#\\QLChungCuMini\\QuanLyPhong\\fQuanLyPhong.cs",
-              "RelativeDocumentMoniker": "QuanLyPhong\\fQuanLyPhong.cs",
-              "ToolTip": "D:\\learn to code\\Du An C#\\QLChungCuMini\\QuanLyPhong\\fQuanLyPhong.cs [Design]",
-              "RelativeToolTip": "QuanLyPhong\\fQuanLyPhong.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T01:45:34.276Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "QLTBPCCC.cs [Design]",
               "DocumentMoniker": "D:\\learn to code\\Du An C#\\QLChungCuMini\\QuanLyTBPCCC\\QLTBPCCC.cs",
               "RelativeDocumentMoniker": "QuanLyTBPCCC\\QLTBPCCC.cs",
               "ToolTip": "D:\\learn to code\\Du An C#\\QLChungCuMini\\QuanLyTBPCCC\\QLTBPCCC.cs [Design]",
               "RelativeToolTip": "QuanLyTBPCCC\\QLTBPCCC.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T15:24:56.718Z",
+              "WhenOpened": "2024-04-05T03:50:34.17Z",
               "EditorCaption": " [Design]"
             },
             {
@@ -69,7 +57,19 @@
               "ToolTip": "D:\\learn to code\\Du An C#\\QLChungCuMini\\QuanLyKhach\\QLKhachHang.cs [Design]",
               "RelativeToolTip": "QuanLyKhach\\QLKhachHang.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T15:24:09.89Z",
+              "WhenOpened": "2024-04-05T03:23:30.045Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "fQuanLyPhong.cs [Design]",
+              "DocumentMoniker": "D:\\learn to code\\Du An C#\\QLChungCuMini\\QuanLyPhong\\fQuanLyPhong.cs",
+              "RelativeDocumentMoniker": "QuanLyPhong\\fQuanLyPhong.cs",
+              "ToolTip": "D:\\learn to code\\Du An C#\\QLChungCuMini\\QuanLyPhong\\fQuanLyPhong.cs [Design]",
+              "RelativeToolTip": "QuanLyPhong\\fQuanLyPhong.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T03:08:23.902Z",
               "EditorCaption": " [Design]"
             },
             {
@@ -81,7 +81,7 @@
               "ToolTip": "D:\\learn to code\\Du An C#\\QLChungCuMini\\QuanLyHopDong\\QlHopDong.cs [Design]",
               "RelativeToolTip": "QuanLyHopDong\\QlHopDong.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T15:23:59.439Z",
+              "WhenOpened": "2024-04-05T03:07:36.314Z",
               "EditorCaption": " [Design]"
             }
           ]

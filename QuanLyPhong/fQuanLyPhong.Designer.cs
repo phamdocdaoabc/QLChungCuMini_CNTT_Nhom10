@@ -59,21 +59,27 @@
             this.panel5 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewPhong)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel3.SuspendLayout();
+            this.panel4.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.panel7);
             this.panel1.Controls.Add(this.dataGridViewPhong);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Location = new System.Drawing.Point(0, -3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1276, 748);
+            this.panel1.Size = new System.Drawing.Size(1276, 780);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -81,14 +87,9 @@
             // 
             this.panel7.BackColor = System.Drawing.Color.Gainsboro;
             this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel7.Controls.Add(this.panel4);
             this.panel7.Controls.Add(this.comboTrangThai);
             this.panel7.Controls.Add(this.comboViTri);
-            this.panel7.Controls.Add(this.btnQuayLai);
-            this.panel7.Controls.Add(this.btnRefresh);
-            this.panel7.Controls.Add(this.btnTimKiem);
-            this.panel7.Controls.Add(this.btnXoa);
-            this.panel7.Controls.Add(this.btnSua);
-            this.panel7.Controls.Add(this.btnAdd);
             this.panel7.Controls.Add(this.txtNoiThat);
             this.panel7.Controls.Add(this.txtIDKhach);
             this.panel7.Controls.Add(this.txtGiaPhong);
@@ -107,7 +108,7 @@
             this.panel7.Controls.Add(this.label13);
             this.panel7.Location = new System.Drawing.Point(0, 134);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(437, 612);
+            this.panel7.Size = new System.Drawing.Size(437, 646);
             this.panel7.TabIndex = 8;
             this.panel7.Paint += new System.Windows.Forms.PaintEventHandler(this.panel7_Paint);
             // 
@@ -152,11 +153,11 @@
             this.btnQuayLai.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQuayLai.ForeColor = System.Drawing.Color.White;
             this.btnQuayLai.Image = global::QLChungCuMini.Properties.Resources.icons8_export_24;
-            this.btnQuayLai.Location = new System.Drawing.Point(282, 563);
+            this.btnQuayLai.Location = new System.Drawing.Point(292, 74);
             this.btnQuayLai.Name = "btnQuayLai";
-            this.btnQuayLai.Size = new System.Drawing.Size(117, 33);
+            this.btnQuayLai.Size = new System.Drawing.Size(116, 33);
             this.btnQuayLai.TabIndex = 20;
-            this.btnQuayLai.Text = "Quay Lại";
+            this.btnQuayLai.Text = "Trang chủ";
             this.btnQuayLai.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnQuayLai.UseVisualStyleBackColor = false;
             this.btnQuayLai.Click += new System.EventHandler(this.btnQuayLai_Click);
@@ -169,9 +170,9 @@
             this.btnRefresh.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRefresh.ForeColor = System.Drawing.Color.White;
             this.btnRefresh.Image = global::QLChungCuMini.Properties.Resources.icons8_refresh_24;
-            this.btnRefresh.Location = new System.Drawing.Point(159, 563);
+            this.btnRefresh.Location = new System.Drawing.Point(150, 74);
             this.btnRefresh.Name = "btnRefresh";
-            this.btnRefresh.Size = new System.Drawing.Size(98, 33);
+            this.btnRefresh.Size = new System.Drawing.Size(101, 33);
             this.btnRefresh.TabIndex = 21;
             this.btnRefresh.Text = "Refresh";
             this.btnRefresh.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -186,9 +187,9 @@
             this.btnTimKiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTimKiem.ForeColor = System.Drawing.Color.White;
             this.btnTimKiem.Image = global::QLChungCuMini.Properties.Resources.icons8_search_24;
-            this.btnTimKiem.Location = new System.Drawing.Point(282, 513);
+            this.btnTimKiem.Location = new System.Drawing.Point(292, 13);
             this.btnTimKiem.Name = "btnTimKiem";
-            this.btnTimKiem.Size = new System.Drawing.Size(117, 33);
+            this.btnTimKiem.Size = new System.Drawing.Size(116, 33);
             this.btnTimKiem.TabIndex = 19;
             this.btnTimKiem.Text = "Tìm Kiếm";
             this.btnTimKiem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -203,7 +204,7 @@
             this.btnXoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXoa.ForeColor = System.Drawing.Color.White;
             this.btnXoa.Image = global::QLChungCuMini.Properties.Resources.icons8_delete_24;
-            this.btnXoa.Location = new System.Drawing.Point(28, 563);
+            this.btnXoa.Location = new System.Drawing.Point(8, 74);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(98, 33);
             this.btnXoa.TabIndex = 20;
@@ -220,9 +221,9 @@
             this.btnSua.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSua.ForeColor = System.Drawing.Color.White;
             this.btnSua.Image = global::QLChungCuMini.Properties.Resources.icons8_fix_24;
-            this.btnSua.Location = new System.Drawing.Point(159, 513);
+            this.btnSua.Location = new System.Drawing.Point(150, 13);
             this.btnSua.Name = "btnSua";
-            this.btnSua.Size = new System.Drawing.Size(98, 33);
+            this.btnSua.Size = new System.Drawing.Size(101, 33);
             this.btnSua.TabIndex = 19;
             this.btnSua.Text = "Sửa";
             this.btnSua.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -237,7 +238,7 @@
             this.btnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAdd.ForeColor = System.Drawing.Color.White;
             this.btnAdd.Image = global::QLChungCuMini.Properties.Resources.icons8_add_24;
-            this.btnAdd.Location = new System.Drawing.Point(28, 513);
+            this.btnAdd.Location = new System.Drawing.Point(8, 13);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(98, 33);
             this.btnAdd.TabIndex = 18;
@@ -390,7 +391,7 @@
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(155, 2);
+            this.label13.Location = new System.Drawing.Point(152, 10);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(99, 24);
             this.label13.TabIndex = 0;
@@ -399,10 +400,10 @@
             // dataGridViewPhong
             // 
             this.dataGridViewPhong.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewPhong.Location = new System.Drawing.Point(439, 134);
+            this.dataGridViewPhong.Location = new System.Drawing.Point(436, 171);
             this.dataGridViewPhong.Name = "dataGridViewPhong";
             this.dataGridViewPhong.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridViewPhong.Size = new System.Drawing.Size(835, 612);
+            this.dataGridViewPhong.Size = new System.Drawing.Size(838, 606);
             this.dataGridViewPhong.TabIndex = 3;
             this.dataGridViewPhong.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewPhong_CellClick);
             this.dataGridViewPhong.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
@@ -451,11 +452,45 @@
             this.label1.Text = "Quản Lý Phòng Trọ ";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
+            // panel3
+            // 
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel3.Controls.Add(this.label2);
+            this.panel3.Location = new System.Drawing.Point(437, 134);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(836, 44);
+            this.panel3.TabIndex = 9;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Modern No. 20", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(347, 12);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(140, 21);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Bảng thông tin";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // panel4
+            // 
+            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel4.Controls.Add(this.btnAdd);
+            this.panel4.Controls.Add(this.btnTimKiem);
+            this.panel4.Controls.Add(this.btnSua);
+            this.panel4.Controls.Add(this.btnRefresh);
+            this.panel4.Controls.Add(this.btnQuayLai);
+            this.panel4.Controls.Add(this.btnXoa);
+            this.panel4.Location = new System.Drawing.Point(4, 506);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(425, 124);
+            this.panel4.TabIndex = 24;
+            // 
             // fQuanLyPhong
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1273, 743);
+            this.ClientSize = new System.Drawing.Size(1273, 774);
             this.Controls.Add(this.panel1);
             this.Name = "fQuanLyPhong";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -468,6 +503,9 @@
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            this.panel4.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -505,5 +543,8 @@
         private System.Windows.Forms.Button btnRefresh;
         private System.Windows.Forms.ComboBox comboViTri;
         private System.Windows.Forms.ComboBox comboTrangThai;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Panel panel4;
     }
 }
