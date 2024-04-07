@@ -151,11 +151,13 @@
             this.btnQuayLai.BackColor = System.Drawing.Color.RoyalBlue;
             this.btnQuayLai.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQuayLai.ForeColor = System.Drawing.Color.White;
+            this.btnQuayLai.Image = global::QLChungCuMini.Properties.Resources.icons8_export_24;
             this.btnQuayLai.Location = new System.Drawing.Point(298, 700);
             this.btnQuayLai.Name = "btnQuayLai";
             this.btnQuayLai.Size = new System.Drawing.Size(103, 43);
             this.btnQuayLai.TabIndex = 36;
             this.btnQuayLai.Text = "Quay lại";
+            this.btnQuayLai.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnQuayLai.UseVisualStyleBackColor = false;
             this.btnQuayLai.Click += new System.EventHandler(this.btnQuayLai_Click);
             // 
@@ -164,11 +166,13 @@
             this.btnLamMoi.BackColor = System.Drawing.Color.RoyalBlue;
             this.btnLamMoi.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLamMoi.ForeColor = System.Drawing.Color.White;
+            this.btnLamMoi.Image = global::QLChungCuMini.Properties.Resources.icons8_refresh_24;
             this.btnLamMoi.Location = new System.Drawing.Point(115, 700);
             this.btnLamMoi.Name = "btnLamMoi";
             this.btnLamMoi.Size = new System.Drawing.Size(103, 43);
             this.btnLamMoi.TabIndex = 34;
             this.btnLamMoi.Text = "Làm mới";
+            this.btnLamMoi.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnLamMoi.UseVisualStyleBackColor = false;
             this.btnLamMoi.Click += new System.EventHandler(this.btnLamMoi_Click);
             // 
@@ -177,11 +181,13 @@
             this.btnXoa.BackColor = System.Drawing.Color.RoyalBlue;
             this.btnXoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXoa.ForeColor = System.Drawing.Color.White;
+            this.btnXoa.Image = global::QLChungCuMini.Properties.Resources.icons8_delete_24;
             this.btnXoa.Location = new System.Drawing.Point(382, 612);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(103, 43);
             this.btnXoa.TabIndex = 33;
             this.btnXoa.Text = "Xóa";
+            this.btnXoa.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnXoa.UseVisualStyleBackColor = false;
             this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
@@ -190,11 +196,13 @@
             this.btnSua.BackColor = System.Drawing.Color.RoyalBlue;
             this.btnSua.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSua.ForeColor = System.Drawing.Color.White;
+            this.btnSua.Image = global::QLChungCuMini.Properties.Resources.icons8_fix_24;
             this.btnSua.Location = new System.Drawing.Point(207, 612);
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(103, 43);
             this.btnSua.TabIndex = 32;
             this.btnSua.Text = "Sửa";
+            this.btnSua.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnSua.UseVisualStyleBackColor = false;
             this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
             // 
@@ -203,11 +211,13 @@
             this.btnThem.BackColor = System.Drawing.Color.RoyalBlue;
             this.btnThem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThem.ForeColor = System.Drawing.Color.White;
+            this.btnThem.Image = global::QLChungCuMini.Properties.Resources.icons8_add_24;
             this.btnThem.Location = new System.Drawing.Point(29, 612);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(103, 43);
             this.btnThem.TabIndex = 31;
             this.btnThem.Text = "Thêm";
+            this.btnThem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnThem.UseVisualStyleBackColor = false;
             this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
@@ -411,11 +421,13 @@
             this.btnTimKiem.BackColor = System.Drawing.Color.RoyalBlue;
             this.btnTimKiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTimKiem.ForeColor = System.Drawing.Color.White;
+            this.btnTimKiem.Image = global::QLChungCuMini.Properties.Resources.icons8_search_24;
             this.btnTimKiem.Location = new System.Drawing.Point(749, 24);
             this.btnTimKiem.Name = "btnTimKiem";
             this.btnTimKiem.Size = new System.Drawing.Size(103, 43);
             this.btnTimKiem.TabIndex = 35;
             this.btnTimKiem.Text = "Tìm Kiếm";
+            this.btnTimKiem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnTimKiem.UseVisualStyleBackColor = false;
             this.btnTimKiem.Click += new System.EventHandler(this.btnTimKiem_Click);
             // 
