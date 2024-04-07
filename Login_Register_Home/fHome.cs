@@ -186,5 +186,11 @@ namespace QLChungCuMini
             th.Start();
             this.Close();
         }
+
+        private void btnQLTDV_Click(object sender, EventArgs e)
+        {
+            QLTienDV qLTienDV = new QLTienDV();
+            qLTienDV.Show();
+        }
     }
 }

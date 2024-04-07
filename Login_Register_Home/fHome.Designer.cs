@@ -116,7 +116,7 @@ namespace QLChungCuMini
             this.label1.Location = new System.Drawing.Point(65, 709);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(98, 15);
+            this.label1.Size = new System.Drawing.Size(117, 18);
             this.label1.TabIndex = 12;
             this.label1.Text = "@nhom10studio";
             // 
@@ -132,7 +132,7 @@ namespace QLChungCuMini
             // 
             this.btnPCCC.FlatAppearance.BorderColor = System.Drawing.SystemColors.InfoText;
             this.btnPCCC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPCCC.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPCCC.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPCCC.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnPCCC.Image = global::QLChungCuMini.Properties.Resources.icons8_fire_station_32;
             this.btnPCCC.Location = new System.Drawing.Point(23, 614);
@@ -149,7 +149,7 @@ namespace QLChungCuMini
             // 
             this.btnQLHopDong.FlatAppearance.BorderColor = System.Drawing.SystemColors.MenuText;
             this.btnQLHopDong.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnQLHopDong.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnQLHopDong.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQLHopDong.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnQLHopDong.Image = global::QLChungCuMini.Properties.Resources.icons8_contract_32;
             this.btnQLHopDong.Location = new System.Drawing.Point(15, 528);
@@ -166,7 +166,7 @@ namespace QLChungCuMini
             // 
             this.btnQLDichVu.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.btnQLDichVu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnQLDichVu.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnQLDichVu.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQLDichVu.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnQLDichVu.Image = global::QLChungCuMini.Properties.Resources.icons8_phiDichVu;
             this.btnQLDichVu.Location = new System.Drawing.Point(15, 443);
@@ -182,7 +182,7 @@ namespace QLChungCuMini
             // 
             this.btnQLPhong.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.btnQLPhong.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnQLPhong.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnQLPhong.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQLPhong.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnQLPhong.Image = global::QLChungCuMini.Properties.Resources.icons8_room_32;
             this.btnQLPhong.Location = new System.Drawing.Point(15, 366);
@@ -199,7 +199,7 @@ namespace QLChungCuMini
             // 
             this.btnQLKhach.FlatAppearance.BorderColor = System.Drawing.SystemColors.Desktop;
             this.btnQLKhach.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnQLKhach.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnQLKhach.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQLKhach.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnQLKhach.Image = global::QLChungCuMini.Properties.Resources.icons8_khachHang;
             this.btnQLKhach.Location = new System.Drawing.Point(19, 281);
@@ -218,7 +218,7 @@ namespace QLChungCuMini
             this.btnAdmin.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.GrayText;
             this.btnAdmin.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.GrayText;
             this.btnAdmin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAdmin.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdmin.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAdmin.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnAdmin.Image = global::QLChungCuMini.Properties.Resources.icons8_admin_32;
             this.btnAdmin.Location = new System.Drawing.Point(16, 209);
@@ -246,7 +246,7 @@ namespace QLChungCuMini
             // 
             this.btnQLKH.FlatAppearance.BorderColor = System.Drawing.Color.MediumSlateBlue;
             this.btnQLKH.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnQLKH.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnQLKH.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQLKH.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnQLKH.Location = new System.Drawing.Point(0, 2);
             this.btnQLKH.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -273,7 +273,7 @@ namespace QLChungCuMini
             // 
             this.btnQLP.FlatAppearance.BorderColor = System.Drawing.Color.SeaGreen;
             this.btnQLP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnQLP.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnQLP.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQLP.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnQLP.Location = new System.Drawing.Point(-3, -1);
             this.btnQLP.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -293,7 +293,7 @@ namespace QLChungCuMini
             this.labTenTaiKhoan.Location = new System.Drawing.Point(225, 64);
             this.labTenTaiKhoan.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labTenTaiKhoan.Name = "labTenTaiKhoan";
-            this.labTenTaiKhoan.Size = new System.Drawing.Size(124, 20);
+            this.labTenTaiKhoan.Size = new System.Drawing.Size(156, 25);
             this.labTenTaiKhoan.TabIndex = 3;
             this.labTenTaiKhoan.Text = "Tên Tài Khoản";
             this.labTenTaiKhoan.Click += new System.EventHandler(this.labTenTaiKhoan_Click);
@@ -306,7 +306,7 @@ namespace QLChungCuMini
             this.label4.Location = new System.Drawing.Point(312, 18);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(59, 20);
+            this.label4.Size = new System.Drawing.Size(73, 25);
             this.label4.TabIndex = 4;
             this.label4.Text = "Admin";
             // 
@@ -344,7 +344,7 @@ namespace QLChungCuMini
             // 
             this.button7.FlatAppearance.BorderColor = System.Drawing.Color.DarkGoldenrod;
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.button7.Location = new System.Drawing.Point(-1, 0);
             this.button7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -370,7 +370,7 @@ namespace QLChungCuMini
             // 
             this.button6.FlatAppearance.BorderColor = System.Drawing.SystemColors.GrayText;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.button6.Location = new System.Drawing.Point(3, 2);
             this.button6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -396,7 +396,7 @@ namespace QLChungCuMini
             // 
             this.btnQLPCCC.FlatAppearance.BorderColor = System.Drawing.Color.IndianRed;
             this.btnQLPCCC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnQLPCCC.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnQLPCCC.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQLPCCC.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnQLPCCC.Location = new System.Drawing.Point(-1, -1);
             this.btnQLPCCC.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -423,7 +423,7 @@ namespace QLChungCuMini
             // 
             this.btnQLHD.FlatAppearance.BorderColor = System.Drawing.Color.Teal;
             this.btnQLHD.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnQLHD.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnQLHD.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQLHD.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnQLHD.Location = new System.Drawing.Point(-1, -1);
             this.btnQLHD.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -450,7 +450,7 @@ namespace QLChungCuMini
             // 
             this.btnQLTDV.FlatAppearance.BorderColor = System.Drawing.Color.DodgerBlue;
             this.btnQLTDV.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnQLTDV.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnQLTDV.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQLTDV.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnQLTDV.Location = new System.Drawing.Point(-1, -1);
             this.btnQLTDV.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -460,6 +460,7 @@ namespace QLChungCuMini
             this.btnQLTDV.Text = "Quản lý tiền dịch vụ tháng";
             this.btnQLTDV.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnQLTDV.UseVisualStyleBackColor = true;
+            this.btnQLTDV.Click += new System.EventHandler(this.btnQLTDV_Click);
             // 
             // panel12
             // 
@@ -490,7 +491,7 @@ namespace QLChungCuMini
             this.btnOut.BackColor = System.Drawing.Color.DarkOrange;
             this.btnOut.FlatAppearance.BorderColor = System.Drawing.Color.DarkOrange;
             this.btnOut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnOut.Font = new System.Drawing.Font("Arial Narrow", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOut.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnOut.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnOut.Image = global::QLChungCuMini.Properties.Resources.icons8_log_out_30;
             this.btnOut.Location = new System.Drawing.Point(268, 105);
