@@ -19,7 +19,7 @@ namespace QLChungCuMini
 
         SqlConnection connection;
         SqlCommand command;
-        String str = "Data Source=DESKTOP-0HMGH3I;Initial Catalog=QLChungCuMini;Integrated Security=True;Encrypt=False";
+        String str = fLogin.GlobalVariables.MyGlobalStringSQL;
         //data của mạnh
         //String str = "Data Source=MANHCAO\\SQLEXPRESS;Initial Catalog=QLChungCuMini;Integrated Security=True";
         //data đức dz

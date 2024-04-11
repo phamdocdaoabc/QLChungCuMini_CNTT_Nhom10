@@ -10,7 +10,7 @@ namespace QLChungCuMini
     internal class TaiKhoanAdminDAO
     {
         // Khởi tạo kết nối
-        private static string stringConnection = @"Data Source=DESKTOP-0HMGH3I;Initial Catalog=QLChungCuMini;Integrated Security=True;Encrypt=False";
+        private static string stringConnection = fLogin.GlobalVariables.MyGlobalStringSQL;
         //private static string stringConnection = @"Data Source=MANHCAO\SQLEXPRESS;Initial Catalog=QLChungCuMini;Integrated Security=True";
 
         // data đức dz

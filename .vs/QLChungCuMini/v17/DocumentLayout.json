@@ -1,7 +1,36 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\learn to code\\Du An C#\\QLChungCuMini\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\ACER\\source\\repos\\QLChungCuMini_CNTT_Nhom10\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|c:\\users\\acer\\source\\repos\\qlchungcumini_cntt_nhom10\\quanlytiendv\\qltiendv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|solutionrelative:quanlytiendv\\qltiendv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|c:\\users\\acer\\source\\repos\\qlchungcumini_cntt_nhom10\\quanlytbpccc\\qltbpccc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|solutionrelative:quanlytbpccc\\qltbpccc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|c:\\users\\acer\\source\\repos\\qlchungcumini_cntt_nhom10\\quanlyphong\\quanlyphongdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|solutionrelative:quanlyphong\\quanlyphongdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|c:\\users\\acer\\source\\repos\\qlchungcumini_cntt_nhom10\\quanlyphong\\quanlyphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|solutionrelative:quanlyphong\\quanlyphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|c:\\users\\acer\\source\\repos\\qlchungcumini_cntt_nhom10\\quanlyphong\\fquanlyphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|solutionrelative:quanlyphong\\fquanlyphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|c:\\users\\acer\\source\\repos\\qlchungcumini_cntt_nhom10\\quanlykhach\\qlkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|solutionrelative:quanlykhach\\qlkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|c:\\users\\acer\\source\\repos\\qlchungcumini_cntt_nhom10\\quanlyhopdong\\qlhopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|solutionrelative:quanlyhopdong\\qlhopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,15 +38,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QLTienDV.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\QLChungCuMini_CNTT_Nhom10\\QuanLyTienDV\\QLTienDV.cs",
+              "RelativeDocumentMoniker": "QuanLyTienDV\\QLTienDV.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\QLChungCuMini_CNTT_Nhom10\\QuanLyTienDV\\QLTienDV.cs*",
+              "RelativeToolTip": "QuanLyTienDV\\QLTienDV.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T16:36:51.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QLTBPCCC.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\QLChungCuMini_CNTT_Nhom10\\QuanLyTBPCCC\\QLTBPCCC.cs",
+              "RelativeDocumentMoniker": "QuanLyTBPCCC\\QLTBPCCC.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\QLChungCuMini_CNTT_Nhom10\\QuanLyTBPCCC\\QLTBPCCC.cs",
+              "RelativeToolTip": "QuanLyTBPCCC\\QLTBPCCC.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T16:36:47.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QuanLyPhongDAO.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\QLChungCuMini_CNTT_Nhom10\\QuanLyPhong\\QuanLyPhongDAO.cs",
+              "RelativeDocumentMoniker": "QuanLyPhong\\QuanLyPhongDAO.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\QLChungCuMini_CNTT_Nhom10\\QuanLyPhong\\QuanLyPhongDAO.cs*",
+              "RelativeToolTip": "QuanLyPhong\\QuanLyPhongDAO.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T16:36:35.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "QuanLyPhong.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\QLChungCuMini_CNTT_Nhom10\\QuanLyPhong\\QuanLyPhong.cs",
+              "RelativeDocumentMoniker": "QuanLyPhong\\QuanLyPhong.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\QLChungCuMini_CNTT_Nhom10\\QuanLyPhong\\QuanLyPhong.cs",
+              "RelativeToolTip": "QuanLyPhong\\QuanLyPhong.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T16:36:33.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "fQuanLyPhong.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\QLChungCuMini_CNTT_Nhom10\\QuanLyPhong\\fQuanLyPhong.cs",
+              "RelativeDocumentMoniker": "QuanLyPhong\\fQuanLyPhong.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\QLChungCuMini_CNTT_Nhom10\\QuanLyPhong\\fQuanLyPhong.cs",
+              "RelativeToolTip": "QuanLyPhong\\fQuanLyPhong.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T16:36:29.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "QLKhachHang.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\QLChungCuMini_CNTT_Nhom10\\QuanLyKhach\\QLKhachHang.cs",
+              "RelativeDocumentMoniker": "QuanLyKhach\\QLKhachHang.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\QLChungCuMini_CNTT_Nhom10\\QuanLyKhach\\QLKhachHang.cs",
+              "RelativeToolTip": "QuanLyKhach\\QLKhachHang.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T16:36:26.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "QlHopDong.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\QLChungCuMini_CNTT_Nhom10\\QuanLyHopDong\\QlHopDong.cs",
+              "RelativeDocumentMoniker": "QuanLyHopDong\\QlHopDong.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\QLChungCuMini_CNTT_Nhom10\\QuanLyHopDong\\QlHopDong.cs",
+              "RelativeToolTip": "QuanLyHopDong\\QlHopDong.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T16:36:23.097Z",
+              "EditorCaption": ""
             }
           ]
         }

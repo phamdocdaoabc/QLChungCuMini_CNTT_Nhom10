@@ -16,9 +16,15 @@ namespace QLChungCuMini
         public fLogin()
         {
             InitializeComponent();
+            
         }
 
-        
+        public static class GlobalVariables
+        {
+            public static string MyGlobalStringSQL = @"Data Source=DESKTOP-7904PML\SQLEXPRESS;Initial Catalog=QLChungCuMini;Integrated Security=True;Encrypt=False";
+            // chỉ cần thay đổi stringSQL này
+            public static string MyGlobalString { get; internal set; }
+        }
 
         private void panel2_Paint(object sender, PaintEventArgs e)
         {

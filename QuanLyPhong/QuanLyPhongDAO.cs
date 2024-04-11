@@ -11,7 +11,7 @@ namespace QLChungCuMini
     internal class QuanLyPhongDAO
     {
         // Khởi tạo kết nối
-        private static string stringConnection = @"Data Source=DESKTOP-0HMGH3I;Initial Catalog=QLChungCuMini;Integrated Security=True;Encrypt=False";
+        private static string stringConnection = fLogin.GlobalVariables.MyGlobalStringSQL;
         //private static string stringConnection = @"Data Source=MANHCAO\SQLEXPRESS;Initial Catalog=QLChungCuMini;Integrated Security=True";
         //data đức dz
         //private static string stringConnection = "Data Source=LAPTOP-ACERI5\\SQLEXPRESS;Initial Catalog=QLChungCuMini;Integrated Security=True;"; 
