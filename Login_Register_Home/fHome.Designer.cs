@@ -90,19 +90,18 @@ namespace QLChungCuMini
             this.panel2.Controls.Add(this.btnAdmin);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(299, 735);
+            this.panel2.Size = new System.Drawing.Size(224, 597);
             this.panel2.TabIndex = 1;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // pictureBox4
             // 
             this.pictureBox4.Image = global::QLChungCuMini.Properties.Resources.icons8_c_sharp_logo_100;
-            this.pictureBox4.Location = new System.Drawing.Point(43, 15);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox4.Location = new System.Drawing.Point(32, 12);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(204, 167);
+            this.pictureBox4.Size = new System.Drawing.Size(153, 136);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 13;
             this.pictureBox4.TabStop = false;
@@ -113,19 +112,18 @@ namespace QLChungCuMini
             this.label1.BackColor = System.Drawing.Color.Black;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(65, 709);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(49, 576);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(117, 18);
+            this.label1.Size = new System.Drawing.Size(98, 15);
             this.label1.TabIndex = 12;
             this.label1.Text = "@nhom10studio";
             // 
             // panel4
             // 
-            this.panel4.Location = new System.Drawing.Point(299, 238);
-            this.panel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel4.Location = new System.Drawing.Point(224, 193);
+            this.panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(200, 100);
+            this.panel4.Size = new System.Drawing.Size(150, 81);
             this.panel4.TabIndex = 11;
             // 
             // btnPCCC
@@ -135,10 +133,9 @@ namespace QLChungCuMini
             this.btnPCCC.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPCCC.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnPCCC.Image = global::QLChungCuMini.Properties.Resources.icons8_fire_station_32;
-            this.btnPCCC.Location = new System.Drawing.Point(23, 614);
-            this.btnPCCC.Margin = new System.Windows.Forms.Padding(4);
+            this.btnPCCC.Location = new System.Drawing.Point(17, 499);
             this.btnPCCC.Name = "btnPCCC";
-            this.btnPCCC.Size = new System.Drawing.Size(267, 80);
+            this.btnPCCC.Size = new System.Drawing.Size(200, 65);
             this.btnPCCC.TabIndex = 8;
             this.btnPCCC.Text = "Thiết bị PCCC";
             this.btnPCCC.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -152,10 +149,10 @@ namespace QLChungCuMini
             this.btnQLHopDong.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQLHopDong.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnQLHopDong.Image = global::QLChungCuMini.Properties.Resources.icons8_contract_32;
-            this.btnQLHopDong.Location = new System.Drawing.Point(15, 528);
-            this.btnQLHopDong.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnQLHopDong.Location = new System.Drawing.Point(11, 429);
+            this.btnQLHopDong.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnQLHopDong.Name = "btnQLHopDong";
-            this.btnQLHopDong.Size = new System.Drawing.Size(263, 80);
+            this.btnQLHopDong.Size = new System.Drawing.Size(197, 65);
             this.btnQLHopDong.TabIndex = 7;
             this.btnQLHopDong.Text = "Hợp đồng";
             this.btnQLHopDong.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -169,14 +166,15 @@ namespace QLChungCuMini
             this.btnQLDichVu.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQLDichVu.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnQLDichVu.Image = global::QLChungCuMini.Properties.Resources.icons8_phiDichVu;
-            this.btnQLDichVu.Location = new System.Drawing.Point(15, 443);
-            this.btnQLDichVu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnQLDichVu.Location = new System.Drawing.Point(11, 360);
+            this.btnQLDichVu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnQLDichVu.Name = "btnQLDichVu";
-            this.btnQLDichVu.Size = new System.Drawing.Size(281, 80);
+            this.btnQLDichVu.Size = new System.Drawing.Size(211, 65);
             this.btnQLDichVu.TabIndex = 6;
             this.btnQLDichVu.Text = "Tiền dịch vụ";
             this.btnQLDichVu.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnQLDichVu.UseVisualStyleBackColor = true;
+            this.btnQLDichVu.Click += new System.EventHandler(this.btnQLDichVu_Click);
             // 
             // btnQLPhong
             // 
@@ -185,10 +183,10 @@ namespace QLChungCuMini
             this.btnQLPhong.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQLPhong.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnQLPhong.Image = global::QLChungCuMini.Properties.Resources.icons8_room_32;
-            this.btnQLPhong.Location = new System.Drawing.Point(15, 366);
-            this.btnQLPhong.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnQLPhong.Location = new System.Drawing.Point(11, 297);
+            this.btnQLPhong.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnQLPhong.Name = "btnQLPhong";
-            this.btnQLPhong.Size = new System.Drawing.Size(275, 73);
+            this.btnQLPhong.Size = new System.Drawing.Size(206, 59);
             this.btnQLPhong.TabIndex = 5;
             this.btnQLPhong.Text = "Phòng trọ";
             this.btnQLPhong.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -202,10 +200,10 @@ namespace QLChungCuMini
             this.btnQLKhach.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQLKhach.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnQLKhach.Image = global::QLChungCuMini.Properties.Resources.icons8_khachHang;
-            this.btnQLKhach.Location = new System.Drawing.Point(19, 281);
-            this.btnQLKhach.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnQLKhach.Location = new System.Drawing.Point(14, 228);
+            this.btnQLKhach.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnQLKhach.Name = "btnQLKhach";
-            this.btnQLKhach.Size = new System.Drawing.Size(275, 73);
+            this.btnQLKhach.Size = new System.Drawing.Size(206, 59);
             this.btnQLKhach.TabIndex = 4;
             this.btnQLKhach.Text = "Khách hàng";
             this.btnQLKhach.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -221,10 +219,10 @@ namespace QLChungCuMini
             this.btnAdmin.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAdmin.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnAdmin.Image = global::QLChungCuMini.Properties.Resources.icons8_admin_32;
-            this.btnAdmin.Location = new System.Drawing.Point(16, 209);
-            this.btnAdmin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnAdmin.Location = new System.Drawing.Point(12, 170);
+            this.btnAdmin.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnAdmin.Name = "btnAdmin";
-            this.btnAdmin.Size = new System.Drawing.Size(275, 66);
+            this.btnAdmin.Size = new System.Drawing.Size(206, 54);
             this.btnAdmin.TabIndex = 3;
             this.btnAdmin.Text = "Trang chủ";
             this.btnAdmin.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -235,10 +233,9 @@ namespace QLChungCuMini
             this.panel6.BackColor = System.Drawing.Color.MediumSlateBlue;
             this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel6.Controls.Add(this.btnQLKH);
-            this.panel6.Location = new System.Drawing.Point(7, 613);
-            this.panel6.Margin = new System.Windows.Forms.Padding(4);
+            this.panel6.Location = new System.Drawing.Point(5, 498);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(529, 113);
+            this.panel6.Size = new System.Drawing.Size(397, 92);
             this.panel6.TabIndex = 2;
             this.panel6.Paint += new System.Windows.Forms.PaintEventHandler(this.panel6_Paint);
             // 
@@ -249,9 +246,9 @@ namespace QLChungCuMini
             this.btnQLKH.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQLKH.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnQLKH.Location = new System.Drawing.Point(0, 2);
-            this.btnQLKH.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnQLKH.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnQLKH.Name = "btnQLKH";
-            this.btnQLKH.Size = new System.Drawing.Size(525, 110);
+            this.btnQLKH.Size = new System.Drawing.Size(394, 89);
             this.btnQLKH.TabIndex = 5;
             this.btnQLKH.Text = "Quản lý khách hàng";
             this.btnQLKH.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -263,10 +260,9 @@ namespace QLChungCuMini
             this.panel8.BackColor = System.Drawing.Color.ForestGreen;
             this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel8.Controls.Add(this.btnQLP);
-            this.panel8.Location = new System.Drawing.Point(541, 383);
-            this.panel8.Margin = new System.Windows.Forms.Padding(4);
+            this.panel8.Location = new System.Drawing.Point(406, 311);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(533, 105);
+            this.panel8.Size = new System.Drawing.Size(400, 86);
             this.panel8.TabIndex = 1;
             // 
             // btnQLP
@@ -275,10 +271,10 @@ namespace QLChungCuMini
             this.btnQLP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnQLP.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQLP.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnQLP.Location = new System.Drawing.Point(-3, -1);
-            this.btnQLP.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnQLP.Location = new System.Drawing.Point(-2, -1);
+            this.btnQLP.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnQLP.Name = "btnQLP";
-            this.btnQLP.Size = new System.Drawing.Size(535, 107);
+            this.btnQLP.Size = new System.Drawing.Size(401, 87);
             this.btnQLP.TabIndex = 6;
             this.btnQLP.Text = "Quản lý phòng trọ";
             this.btnQLP.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -290,10 +286,9 @@ namespace QLChungCuMini
             this.labTenTaiKhoan.AutoSize = true;
             this.labTenTaiKhoan.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labTenTaiKhoan.ForeColor = System.Drawing.Color.White;
-            this.labTenTaiKhoan.Location = new System.Drawing.Point(225, 64);
-            this.labTenTaiKhoan.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labTenTaiKhoan.Location = new System.Drawing.Point(169, 52);
             this.labTenTaiKhoan.Name = "labTenTaiKhoan";
-            this.labTenTaiKhoan.Size = new System.Drawing.Size(156, 25);
+            this.labTenTaiKhoan.Size = new System.Drawing.Size(124, 20);
             this.labTenTaiKhoan.TabIndex = 3;
             this.labTenTaiKhoan.Text = "Tên Tài Khoản";
             this.labTenTaiKhoan.Click += new System.EventHandler(this.labTenTaiKhoan_Click);
@@ -303,10 +298,9 @@ namespace QLChungCuMini
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(312, 18);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(234, 15);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(73, 25);
+            this.label4.Size = new System.Drawing.Size(59, 20);
             this.label4.TabIndex = 4;
             this.label4.Text = "Admin";
             // 
@@ -323,10 +317,10 @@ namespace QLChungCuMini
             this.panel1.Controls.Add(this.panel12);
             this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Controls.Add(this.panel8);
-            this.panel1.Location = new System.Drawing.Point(301, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel1.Location = new System.Drawing.Point(226, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1083, 734);
+            this.panel1.Size = new System.Drawing.Size(813, 597);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -334,10 +328,9 @@ namespace QLChungCuMini
             // 
             this.panel10.BackColor = System.Drawing.Color.DarkGoldenrod;
             this.panel10.Controls.Add(this.button7);
-            this.panel10.Location = new System.Drawing.Point(799, 209);
-            this.panel10.Margin = new System.Windows.Forms.Padding(4);
+            this.panel10.Location = new System.Drawing.Point(599, 170);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(272, 154);
+            this.panel10.Size = new System.Drawing.Size(204, 125);
             this.panel10.TabIndex = 15;
             // 
             // button7
@@ -347,9 +340,9 @@ namespace QLChungCuMini
             this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.button7.Location = new System.Drawing.Point(-1, 0);
-            this.button7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(273, 153);
+            this.button7.Size = new System.Drawing.Size(205, 124);
             this.button7.TabIndex = 8;
             this.button7.Text = "Lưu trữ";
             this.button7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -359,10 +352,9 @@ namespace QLChungCuMini
             // 
             this.panel9.BackColor = System.Drawing.SystemColors.GrayText;
             this.panel9.Controls.Add(this.button6);
-            this.panel9.Location = new System.Drawing.Point(543, 208);
-            this.panel9.Margin = new System.Windows.Forms.Padding(4);
+            this.panel9.Location = new System.Drawing.Point(407, 169);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(248, 155);
+            this.panel9.Size = new System.Drawing.Size(186, 126);
             this.panel9.TabIndex = 14;
             this.panel9.Paint += new System.Windows.Forms.PaintEventHandler(this.panel9_Paint);
             // 
@@ -372,10 +364,10 @@ namespace QLChungCuMini
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button6.Location = new System.Drawing.Point(3, 2);
-            this.button6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button6.Location = new System.Drawing.Point(2, 2);
+            this.button6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(243, 153);
+            this.button6.Size = new System.Drawing.Size(182, 124);
             this.button6.TabIndex = 7;
             this.button6.Text = "Setting";
             this.button6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -386,10 +378,9 @@ namespace QLChungCuMini
             this.panel7.BackColor = System.Drawing.Color.IndianRed;
             this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel7.Controls.Add(this.btnQLPCCC);
-            this.panel7.Location = new System.Drawing.Point(7, 495);
-            this.panel7.Margin = new System.Windows.Forms.Padding(4);
+            this.panel7.Location = new System.Drawing.Point(5, 402);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(529, 110);
+            this.panel7.Size = new System.Drawing.Size(397, 90);
             this.panel7.TabIndex = 13;
             // 
             // btnQLPCCC
@@ -399,9 +390,9 @@ namespace QLChungCuMini
             this.btnQLPCCC.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQLPCCC.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnQLPCCC.Location = new System.Drawing.Point(-1, -1);
-            this.btnQLPCCC.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnQLPCCC.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnQLPCCC.Name = "btnQLPCCC";
-            this.btnQLPCCC.Size = new System.Drawing.Size(527, 111);
+            this.btnQLPCCC.Size = new System.Drawing.Size(395, 90);
             this.btnQLPCCC.TabIndex = 5;
             this.btnQLPCCC.Text = "Quản lý Thiết bị PCCC";
             this.btnQLPCCC.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -413,10 +404,9 @@ namespace QLChungCuMini
             this.panel5.BackColor = System.Drawing.Color.Teal;
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel5.Controls.Add(this.btnQLHD);
-            this.panel5.Location = new System.Drawing.Point(7, 382);
-            this.panel5.Margin = new System.Windows.Forms.Padding(4);
+            this.panel5.Location = new System.Drawing.Point(5, 310);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(527, 105);
+            this.panel5.Size = new System.Drawing.Size(396, 86);
             this.panel5.TabIndex = 12;
             // 
             // btnQLHD
@@ -426,9 +416,9 @@ namespace QLChungCuMini
             this.btnQLHD.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQLHD.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnQLHD.Location = new System.Drawing.Point(-1, -1);
-            this.btnQLHD.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnQLHD.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnQLHD.Name = "btnQLHD";
-            this.btnQLHD.Size = new System.Drawing.Size(528, 108);
+            this.btnQLHD.Size = new System.Drawing.Size(396, 88);
             this.btnQLHD.TabIndex = 5;
             this.btnQLHD.Text = "Quản lý hợp đồng thuê phòng";
             this.btnQLHD.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -440,10 +430,9 @@ namespace QLChungCuMini
             this.panel3.BackColor = System.Drawing.Color.DodgerBlue;
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel3.Controls.Add(this.btnQLTDV);
-            this.panel3.Location = new System.Drawing.Point(541, 495);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4);
+            this.panel3.Location = new System.Drawing.Point(406, 402);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(533, 110);
+            this.panel3.Size = new System.Drawing.Size(400, 90);
             this.panel3.TabIndex = 11;
             // 
             // btnQLTDV
@@ -453,9 +442,9 @@ namespace QLChungCuMini
             this.btnQLTDV.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQLTDV.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnQLTDV.Location = new System.Drawing.Point(-1, -1);
-            this.btnQLTDV.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnQLTDV.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnQLTDV.Name = "btnQLTDV";
-            this.btnQLTDV.Size = new System.Drawing.Size(533, 111);
+            this.btnQLTDV.Size = new System.Drawing.Size(400, 90);
             this.btnQLTDV.TabIndex = 5;
             this.btnQLTDV.Text = "Quản lý tiền dịch vụ tháng";
             this.btnQLTDV.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -469,19 +458,19 @@ namespace QLChungCuMini
             this.panel12.Controls.Add(this.btnOut);
             this.panel12.Controls.Add(this.label4);
             this.panel12.Controls.Add(this.labTenTaiKhoan);
-            this.panel12.Location = new System.Drawing.Point(7, 208);
-            this.panel12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel12.Location = new System.Drawing.Point(5, 169);
+            this.panel12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(529, 155);
+            this.panel12.Size = new System.Drawing.Size(397, 126);
             this.panel12.TabIndex = 10;
             // 
             // pictureBox3
             // 
             this.pictureBox3.Image = global::QLChungCuMini.Properties.Resources.icons8_admin_80;
             this.pictureBox3.Location = new System.Drawing.Point(1, 0);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(191, 155);
+            this.pictureBox3.Size = new System.Drawing.Size(143, 126);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 5;
             this.pictureBox3.TabStop = false;
@@ -494,10 +483,9 @@ namespace QLChungCuMini
             this.btnOut.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnOut.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnOut.Image = global::QLChungCuMini.Properties.Resources.icons8_log_out_30;
-            this.btnOut.Location = new System.Drawing.Point(268, 105);
-            this.btnOut.Margin = new System.Windows.Forms.Padding(4);
+            this.btnOut.Location = new System.Drawing.Point(201, 85);
             this.btnOut.Name = "btnOut";
-            this.btnOut.Size = new System.Drawing.Size(199, 47);
+            this.btnOut.Size = new System.Drawing.Size(149, 38);
             this.btnOut.TabIndex = 9;
             this.btnOut.Text = "Đăng xuất";
             this.btnOut.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -508,9 +496,8 @@ namespace QLChungCuMini
             // 
             this.pictureBox2.Image = global::QLChungCuMini.Properties.Resources.ảnh_bìa_home;
             this.pictureBox2.Location = new System.Drawing.Point(-1, 1);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(1081, 198);
+            this.pictureBox2.Size = new System.Drawing.Size(811, 161);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
@@ -518,12 +505,11 @@ namespace QLChungCuMini
             // 
             // fHome
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1387, 735);
+            this.ClientSize = new System.Drawing.Size(1040, 597);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "fHome";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Home";

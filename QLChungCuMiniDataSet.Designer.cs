@@ -1235,7 +1235,7 @@ SELECT ID, IDPhong, TenDichVu, GiaCa, SoLuong, TuNgay, ToiNgay, ChiSoCu, chiSoMo
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::QLChungCuMini.Properties.Settings.Default.QLChungCuMiniConnectionString;
+            this._connection.ConnectionString = global::QLChungCuMini.Properties.Settings.Default.QLChungCuMiniConnectionString1;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]

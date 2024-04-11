@@ -2170,7 +2170,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>Tên tài khoản : Cao Trần Đức Mạnh</Value>
+                              <Value>Tên tài khoản : Phạm Hải Đức</Value>
                               <Style />
                             </TextRun>
                           </TextRuns>
@@ -2407,6 +2407,7 @@
                       </Style>
                     </Textbox>
                     <ColSpan>2</ColSpan>
+                    <rd:Selected>true</rd:Selected>
                   </CellContents>
                 </TablixCell>
                 <TablixCell />

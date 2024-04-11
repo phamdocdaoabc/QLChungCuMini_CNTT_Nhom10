@@ -17,8 +17,7 @@ namespace QLChungCuMini
 
         SqlConnection connection;
         SqlCommand command;
-        //string str = @"Data Source=DESKTOP-0HMGH3I;Initial Catalog=QLChungCuMini;Integrated Security=True;Encrypt=False";
-        private static string str = @"Data Source=MANHCAO\SQLEXPRESS;Initial Catalog=QLChungCuMini;Integrated Security=True";
+        private static string str = @"Data Source=DESKTOP-0HMGH3I;Initial Catalog=QLChungCuMini;Integrated Security=True;Encrypt=False";
         //data đức dz
         // String str = "Data Source=LAPTOP-ACERI5\\SQLEXPRESS;Initial Catalog=QLChungCuMini;Integrated Security=True;";
 
@@ -138,7 +137,7 @@ namespace QLChungCuMini
             txt_queQuan.Text = "";
             txt_hktt.Text = "";
             dtp_ngaysinh.Text = "1/1/2024";
-
+            txt_timkiem.Text = "";
             loadData();
         }
 

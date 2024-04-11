@@ -189,8 +189,22 @@ namespace QLChungCuMini
 
         private void btnQLTDV_Click(object sender, EventArgs e)
         {
-            QLTienDV qLTienDV = new QLTienDV();
-            qLTienDV.Show();
+            th = new Thread(openNewFormQLTienDv);
+            th.SetApartmentState(ApartmentState.STA);
+            th.Start();
+            this.Close();
+        }
+
+        private void btnQLDichVu_Click(object sender, EventArgs e)
+        {
+            th = new Thread(openNewFormQLTienDv);
+            th.SetApartmentState(ApartmentState.STA);
+            th.Start();
+            this.Close();
+        }
+        private void openNewFormQLTienDv()
+        {
+            Application.Run(new QLTienDV());
         }
     }
 }

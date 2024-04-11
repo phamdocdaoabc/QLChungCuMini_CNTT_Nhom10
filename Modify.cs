@@ -12,9 +12,9 @@ namespace QLChungCuMini
     internal class Modify
     {
         SqlConnection connection;
-        //String str = "Data Source=DESKTOP-0HMGH3I;Initial Catalog=QLChungCuMini;Integrated Security=True;Encrypt=False";
+        String str = "Data Source=DESKTOP-0HMGH3I;Initial Catalog=QLChungCuMini;Integrated Security=True;Encrypt=False";
         //data của mạnh
-        String str = "Data Source=MANHCAO\\SQLEXPRESS;Initial Catalog=QLChungCuMini;Integrated Security=True";
+        //String str = "Data Source=MANHCAO\\SQLEXPRESS;Initial Catalog=QLChungCuMini;Integrated Security=True";
         //data đức dz
         // String str = "Data Source=LAPTOP-ACERI5\\SQLEXPRESS;Initial Catalog=QLChungCuMini;Integrated Security=True;";
         SqlDataAdapter adapter;
