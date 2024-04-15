@@ -25,20 +25,11 @@ namespace QLChungCuMini
         SqlDataAdapter adapter = new SqlDataAdapter();
         DataTable table = new DataTable();
 
-        void loadData()
-        {
-            command = connection.CreateCommand();
-            command.CommandText = "select * from ThietBiPCCC";
-            adapter.SelectCommand = command;
-            table.Clear();
-            adapter.Fill(table);
-            dgvThietBiPCCC.DataSource = table;
-        }
+        // hàm loadData de day du lieu tu csdl vao datagridview
         public QLTBPCCC()
         {
             InitializeComponent();
         }
-
         private void QLTBPCCC_Load(object sender, EventArgs e)
         {
             connection = new SqlConnection(str);
@@ -46,7 +37,15 @@ namespace QLChungCuMini
             loadData();
             load_cbbox();
         }
-
+        void loadData()
+        {
+            command = connection.CreateCommand();//tao doi tuong command de viet command o SQL SERVER
+            command.CommandText = "select * from ThietBiPCCC";//cau lenh tru van de lay  tat ca du lieu tu table 
+            adapter.SelectCommand = command;//tai du lieu duoc thiet lap thong qua command
+            table.Clear();//xoa du lieu dam bao bang clear truoc khi tai du lieu tu csdl
+            adapter.Fill(table);//do du lieu vao table
+            dgvThietBiPCCC.DataSource = table;//lay nguon du lieu cua gridview la table vua do 
+        }
         private void load_cbbox()
         {
             cbSearch.Items.Add("ID");
@@ -54,6 +53,8 @@ namespace QLChungCuMini
             cbSearch.Items.Add("Số Lượng");
             cbSearch.Items.Add("Trạng Thái");
         }
+        
+        //Lay thong tu tu hang hien tai va hien thong tin do len form de xem hoac cap nhap
         private void dgvThietBiPCCC_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             int i;
@@ -61,15 +62,12 @@ namespace QLChungCuMini
             txtID.Text = dgvThietBiPCCC.Rows[i].Cells[0].Value.ToString();
             txtTenThietBi.Text = dgvThietBiPCCC.Rows[i].Cells[1].Value.ToString();
             txtSoLuong.Text = dgvThietBiPCCC.Rows[i].Cells[2].Value.ToString();
+            string dateValue = dgvThietBiPCCC.Rows[i].Cells[3].Value.ToString();
+            string dateValue1 = dgvThietBiPCCC.Rows[i].Cells[4].Value.ToString();
             txtTrangThai.Text = dgvThietBiPCCC.Rows[i].Cells[5].Value.ToString();
             txtViTri.Text = dgvThietBiPCCC.Rows[i].Cells[6].Value.ToString();
             txtTienMua.Text = dgvThietBiPCCC.Rows[i].Cells[7].Value.ToString();
             txtTienBaoDuong.Text = dgvThietBiPCCC.Rows[i].Cells[8].Value.ToString();
-
-
-            string dateValue = dgvThietBiPCCC.Rows[i].Cells[3].Value.ToString();
-            string dateValue1 = dgvThietBiPCCC.Rows[i].Cells[4].Value.ToString();
-
             // Chuyển đổi giá trị sang định dạng DateTime
             if (DateTime.TryParse(dateValue, out DateTime date))
             {
@@ -83,6 +81,7 @@ namespace QLChungCuMini
             }
 
         }
+
         private void btnAdd_Click(object sender, EventArgs e)
         {
             DialogResult result = MessageBox.Show("Thêm Khách Hàng mới!", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
@@ -104,7 +103,7 @@ namespace QLChungCuMini
 
                 command = connection.CreateCommand();
                 command.CommandText = "insert into ThietBiPCCC values('" + id + "',N'" + txtTenThietBi.Text + "', N'" + txtSoLuong.Text + "','" + ngayMua + "','" + ngayBaoDuong + "',N'" + txtTrangThai.Text + "',N'" + txtViTri.Text + "',N'" + txtTienMua.Text + "',N'" + txtTienBaoDuong.Text + "')";
-                command.ExecuteNonQuery();
+                command.ExecuteNonQuery();//thực hiện truy vấn và thêm dữ liệu vào cơ sở dữ liệu.
 
                 loadData();
             }
@@ -121,10 +120,6 @@ namespace QLChungCuMini
 
             return count > 0;
         }
-
-
-
-
 
         private void btnEdit_Click(object sender, EventArgs e)
         {
@@ -172,11 +167,6 @@ namespace QLChungCuMini
                         WHERE ID = @ID";
                 command.Parameters.AddWithValue("@ID", txtID.Text);
                 command.ExecuteNonQuery();
-
-                
-
-
-
                 loadData();
             }
         }
@@ -193,6 +183,7 @@ namespace QLChungCuMini
             txtTienBaoDuong.Text = "";
         }
         Thread th;
+        // thoát form hiện tại và mở lại form home
         private void btnExit_Click(object sender, EventArgs e)
         {
             th = new Thread(openNewFormHome);

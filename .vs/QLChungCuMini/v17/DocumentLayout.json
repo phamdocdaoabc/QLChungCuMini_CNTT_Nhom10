@@ -1,34 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ACER\\source\\repos\\QLChungCuMini_CNTT_Nhom10\\",
+  "WorkspaceRootPath": "D:\\Workspace\\C#\\done1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|c:\\users\\acer\\source\\repos\\qlchungcumini_cntt_nhom10\\quanlytiendv\\qltiendv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|solutionrelative:quanlytiendv\\qltiendv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|c:\\users\\acer\\source\\repos\\qlchungcumini_cntt_nhom10\\quanlytbpccc\\qltbpccc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|D:\\Workspace\\C#\\done1\\quanlytbpccc\\qltbpccc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|solutionrelative:quanlytbpccc\\qltbpccc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|c:\\users\\acer\\source\\repos\\qlchungcumini_cntt_nhom10\\quanlyphong\\quanlyphongdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|D:\\Workspace\\C#\\done1\\quanlyphong\\quanlyphongdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|solutionrelative:quanlyphong\\quanlyphongdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|c:\\users\\acer\\source\\repos\\qlchungcumini_cntt_nhom10\\quanlyphong\\quanlyphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|solutionrelative:quanlyphong\\quanlyphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|d:\\workspace\\c#\\done1\\login_register_home\\fhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|solutionrelative:login_register_home\\fhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|c:\\users\\acer\\source\\repos\\qlchungcumini_cntt_nhom10\\quanlyphong\\fquanlyphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|d:\\workspace\\c#\\done1\\login_register_home\\fhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|solutionrelative:login_register_home\\fhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|d:\\workspace\\c#\\done1\\quanlytbpccc\\qltbpccc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|solutionrelative:quanlytbpccc\\qltbpccc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|d:\\workspace\\c#\\done1\\login_register_home\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|solutionrelative:login_register_home\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|D:\\Workspace\\C#\\done1\\quanlyphong\\fquanlyphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|solutionrelative:quanlyphong\\fquanlyphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|c:\\users\\acer\\source\\repos\\qlchungcumini_cntt_nhom10\\quanlykhach\\qlkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|d:\\workspace\\c#\\done1\\quanlytiendv\\qltiendv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|solutionrelative:quanlytiendv\\qltiendv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|d:\\workspace\\c#\\done1\\login_register_home\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|solutionrelative:login_register_home\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|D:\\Workspace\\C#\\done1\\quanlyhopdong\\qlhopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|solutionrelative:quanlyhopdong\\qlhopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|D:\\Workspace\\C#\\done1\\quanlykhach\\qlkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|solutionrelative:quanlykhach\\qlkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|c:\\users\\acer\\source\\repos\\qlchungcumini_cntt_nhom10\\quanlyhopdong\\qlhopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|solutionrelative:quanlyhopdong\\qlhopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|D:\\Workspace\\C#\\done1\\quanlyphong\\quanlyphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC270361-A0C5-426B-A610-8C70E303BDA5}|QLChungCuMini.csproj|solutionrelative:quanlyphong\\quanlyphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,38 +66,100 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "fHome.cs",
+              "DocumentMoniker": "D:\\Workspace\\C#\\done1\\Login_Register_Home\\fHome.cs",
+              "RelativeDocumentMoniker": "Login_Register_Home\\fHome.cs",
+              "ToolTip": "D:\\Workspace\\C#\\done1\\Login_Register_Home\\fHome.cs",
+              "RelativeToolTip": "Login_Register_Home\\fHome.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAuwFQAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T10:23:49.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "fHome.cs [Design]",
+              "DocumentMoniker": "D:\\Workspace\\C#\\done1\\Login_Register_Home\\fHome.cs",
+              "RelativeDocumentMoniker": "Login_Register_Home\\fHome.cs",
+              "ToolTip": "D:\\Workspace\\C#\\done1\\Login_Register_Home\\fHome.cs [Design]",
+              "RelativeToolTip": "Login_Register_Home\\fHome.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T10:23:47.753Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "QLTBPCCC.cs [Design]",
+              "DocumentMoniker": "D:\\Workspace\\C#\\done1\\QuanLyTBPCCC\\QLTBPCCC.cs",
+              "RelativeDocumentMoniker": "QuanLyTBPCCC\\QLTBPCCC.cs",
+              "ToolTip": "D:\\Workspace\\C#\\done1\\QuanLyTBPCCC\\QLTBPCCC.cs [Design]*",
+              "RelativeToolTip": "QuanLyTBPCCC\\QLTBPCCC.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T10:21:54.13Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "fLogin.cs",
+              "DocumentMoniker": "D:\\Workspace\\C#\\done1\\Login_Register_Home\\fLogin.cs",
+              "RelativeDocumentMoniker": "Login_Register_Home\\fLogin.cs",
+              "ToolTip": "D:\\Workspace\\C#\\done1\\Login_Register_Home\\fLogin.cs",
+              "RelativeToolTip": "Login_Register_Home\\fLogin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T10:19:48.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "fLogin.cs [Design]",
+              "DocumentMoniker": "D:\\Workspace\\C#\\done1\\Login_Register_Home\\fLogin.cs",
+              "RelativeDocumentMoniker": "Login_Register_Home\\fLogin.cs",
+              "ToolTip": "D:\\Workspace\\C#\\done1\\Login_Register_Home\\fLogin.cs [Design]",
+              "RelativeToolTip": "Login_Register_Home\\fLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T10:19:46.418Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "QLTienDV.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\QLChungCuMini_CNTT_Nhom10\\QuanLyTienDV\\QLTienDV.cs",
+              "DocumentMoniker": "D:\\Workspace\\C#\\done1\\QuanLyTienDV\\QLTienDV.cs",
               "RelativeDocumentMoniker": "QuanLyTienDV\\QLTienDV.cs",
-              "ToolTip": "C:\\Users\\ACER\\source\\repos\\QLChungCuMini_CNTT_Nhom10\\QuanLyTienDV\\QLTienDV.cs*",
-              "RelativeToolTip": "QuanLyTienDV\\QLTienDV.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA+AAAA",
+              "ToolTip": "D:\\Workspace\\C#\\done1\\QuanLyTienDV\\QLTienDV.cs",
+              "RelativeToolTip": "QuanLyTienDV\\QLTienDV.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAYAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-11T16:36:51.739Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "QLTBPCCC.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\QLChungCuMini_CNTT_Nhom10\\QuanLyTBPCCC\\QLTBPCCC.cs",
+              "DocumentMoniker": "D:\\Workspace\\C#\\done1\\QuanLyTBPCCC\\QLTBPCCC.cs",
               "RelativeDocumentMoniker": "QuanLyTBPCCC\\QLTBPCCC.cs",
-              "ToolTip": "C:\\Users\\ACER\\source\\repos\\QLChungCuMini_CNTT_Nhom10\\QuanLyTBPCCC\\QLTBPCCC.cs",
-              "RelativeToolTip": "QuanLyTBPCCC\\QLTBPCCC.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ToolTip": "D:\\Workspace\\C#\\done1\\QuanLyTBPCCC\\QLTBPCCC.cs*",
+              "RelativeToolTip": "QuanLyTBPCCC\\QLTBPCCC.cs*",
+              "ViewState": "AQIAAKEAAAAAAAAAAAAqwL8AAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-11T16:36:47.152Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "QuanLyPhongDAO.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\QLChungCuMini_CNTT_Nhom10\\QuanLyPhong\\QuanLyPhongDAO.cs",
+              "DocumentMoniker": "D:\\Workspace\\C#\\done1\\QuanLyPhong\\QuanLyPhongDAO.cs",
               "RelativeDocumentMoniker": "QuanLyPhong\\QuanLyPhongDAO.cs",
-              "ToolTip": "C:\\Users\\ACER\\source\\repos\\QLChungCuMini_CNTT_Nhom10\\QuanLyPhong\\QuanLyPhongDAO.cs*",
-              "RelativeToolTip": "QuanLyPhong\\QuanLyPhongDAO.cs*",
+              "ToolTip": "D:\\Workspace\\C#\\done1\\QuanLyPhong\\QuanLyPhongDAO.cs",
+              "RelativeToolTip": "QuanLyPhong\\QuanLyPhongDAO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-11T16:36:35.688Z",
@@ -85,11 +167,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "QuanLyPhong.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\QLChungCuMini_CNTT_Nhom10\\QuanLyPhong\\QuanLyPhong.cs",
+              "DocumentMoniker": "D:\\Workspace\\C#\\done1\\QuanLyPhong\\QuanLyPhong.cs",
               "RelativeDocumentMoniker": "QuanLyPhong\\QuanLyPhong.cs",
-              "ToolTip": "C:\\Users\\ACER\\source\\repos\\QLChungCuMini_CNTT_Nhom10\\QuanLyPhong\\QuanLyPhong.cs",
+              "ToolTip": "D:\\Workspace\\C#\\done1\\QuanLyPhong\\QuanLyPhong.cs",
               "RelativeToolTip": "QuanLyPhong\\QuanLyPhong.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -98,11 +180,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "fQuanLyPhong.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\QLChungCuMini_CNTT_Nhom10\\QuanLyPhong\\fQuanLyPhong.cs",
+              "DocumentMoniker": "D:\\Workspace\\C#\\done1\\QuanLyPhong\\fQuanLyPhong.cs",
               "RelativeDocumentMoniker": "QuanLyPhong\\fQuanLyPhong.cs",
-              "ToolTip": "C:\\Users\\ACER\\source\\repos\\QLChungCuMini_CNTT_Nhom10\\QuanLyPhong\\fQuanLyPhong.cs",
+              "ToolTip": "D:\\Workspace\\C#\\done1\\QuanLyPhong\\fQuanLyPhong.cs",
               "RelativeToolTip": "QuanLyPhong\\fQuanLyPhong.cs",
               "ViewState": "AQIAABMAAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -111,11 +193,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "QLKhachHang.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\QLChungCuMini_CNTT_Nhom10\\QuanLyKhach\\QLKhachHang.cs",
+              "DocumentMoniker": "D:\\Workspace\\C#\\done1\\QuanLyKhach\\QLKhachHang.cs",
               "RelativeDocumentMoniker": "QuanLyKhach\\QLKhachHang.cs",
-              "ToolTip": "C:\\Users\\ACER\\source\\repos\\QLChungCuMini_CNTT_Nhom10\\QuanLyKhach\\QLKhachHang.cs",
+              "ToolTip": "D:\\Workspace\\C#\\done1\\QuanLyKhach\\QLKhachHang.cs",
               "RelativeToolTip": "QuanLyKhach\\QLKhachHang.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -124,11 +206,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "QlHopDong.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\QLChungCuMini_CNTT_Nhom10\\QuanLyHopDong\\QlHopDong.cs",
+              "DocumentMoniker": "D:\\Workspace\\C#\\done1\\QuanLyHopDong\\QlHopDong.cs",
               "RelativeDocumentMoniker": "QuanLyHopDong\\QlHopDong.cs",
-              "ToolTip": "C:\\Users\\ACER\\source\\repos\\QLChungCuMini_CNTT_Nhom10\\QuanLyHopDong\\QlHopDong.cs",
+              "ToolTip": "D:\\Workspace\\C#\\done1\\QuanLyHopDong\\QlHopDong.cs",
               "RelativeToolTip": "QuanLyHopDong\\QlHopDong.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

@@ -33,6 +33,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label13 = new System.Windows.Forms.Label();
             this.btnReload = new System.Windows.Forms.Button();
             this.btnEdit = new System.Windows.Forms.Button();
             this.btnAdd = new System.Windows.Forms.Button();
@@ -73,7 +74,6 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.label11 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.label13 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -153,6 +153,17 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(462, 645);
             this.panel2.TabIndex = 1;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.Black;
+            this.label13.Location = new System.Drawing.Point(157, 5);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(99, 24);
+            this.label13.TabIndex = 24;
+            this.label13.Text = "Thông tin";
             // 
             // btnReload
             // 
@@ -458,10 +469,10 @@
             // 
             this.cbSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbSearch.FormattingEnabled = true;
-            this.cbSearch.Location = new System.Drawing.Point(24, 40);
+            this.cbSearch.Location = new System.Drawing.Point(2, 40);
             this.cbSearch.Margin = new System.Windows.Forms.Padding(2);
             this.cbSearch.Name = "cbSearch";
-            this.cbSearch.Size = new System.Drawing.Size(76, 26);
+            this.cbSearch.Size = new System.Drawing.Size(98, 26);
             this.cbSearch.TabIndex = 0;
             this.cbSearch.SelectedIndexChanged += new System.EventHandler(this.cbSearch_SelectedIndexChanged);
             // 
@@ -564,9 +575,9 @@
             this.panel4.Controls.Add(this.cbSearch);
             this.panel4.Controls.Add(this.txtSearch);
             this.panel4.Controls.Add(this.btnSearch);
-            this.panel4.Location = new System.Drawing.Point(512, 5);
+            this.panel4.Location = new System.Drawing.Point(506, 5);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(365, 84);
+            this.panel4.Size = new System.Drawing.Size(371, 84);
             this.panel4.TabIndex = 4;
             // 
             // label11
@@ -588,17 +599,6 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(878, 94);
             this.panel3.TabIndex = 2;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.Color.Black;
-            this.label13.Location = new System.Drawing.Point(157, 5);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(99, 24);
-            this.label13.TabIndex = 24;
-            this.label13.Text = "Thông tin";
             // 
             // QLTBPCCC
             // 
