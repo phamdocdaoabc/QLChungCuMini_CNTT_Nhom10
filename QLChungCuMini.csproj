@@ -88,7 +88,6 @@
     <Compile Include="BaoCao.designer.cs">
       <DependentUpon>BaoCao.cs</DependentUpon>
     </Compile>
-    <Compile Include="Modify.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -153,7 +152,6 @@
     <Compile Include="Login_Register_Home\TaiKhoanAdmin.cs" />
     <Compile Include="QuanLyPhong\QuanLyPhong.cs" />
     <Compile Include="QuanLyPhong\QuanLyPhongDAO.cs" />
-    <EmbeddedResource Include="BaoCao.rdlc" />
     <EmbeddedResource Include="BaoCao.resx">
       <DependentUpon>BaoCao.cs</DependentUpon>
     </EmbeddedResource>
@@ -185,6 +183,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report1.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <None Include=".editorconfig" />
     <None Include="packages.config" />

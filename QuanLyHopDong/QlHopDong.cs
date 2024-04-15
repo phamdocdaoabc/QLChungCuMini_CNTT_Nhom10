@@ -17,7 +17,8 @@ namespace QLChungCuMini
 
         SqlConnection connection;
         SqlCommand command;
-        private static string str = fLogin.GlobalVariables.MyGlobalStringSQL;
+        private static string str = @"Data Source=MANHCAO\SQLEXPRESS;Initial Catalog=QLChungCuMini;Integrated Security=True";
+        //private static string str = fLogin.GlobalVariables.MyGlobalStringSQL;
         //data đức dz
         // String str = "Data Source=LAPTOP-ACERI5\\SQLEXPRESS;Initial Catalog=QLChungCuMini;Integrated Security=True;";
 

@@ -16,15 +16,21 @@ namespace QLChungCuMini
         {
             InitializeComponent();
         }
-        Modify modify = new Modify();
+        public DataSet ReportDataSet { get; set; }
         private void BaoCao_Load(object sender, EventArgs e)
         {
-            reportViewer1.LocalReport.ReportEmbeddedResource = "QLChungCuMini.BaoCao.rdlc";
-            ReportDataSource reportDataSource = new ReportDataSource();
-            reportDataSource.Name = "DataSet1";
-            reportDataSource.Value = modify.Table("SELECT IDPhong, TenDichVu, GiaCa, SoLuong, TuNgay, ToiNgay, ChiSoCu, ChiSoMoi, DonGia from TienDichVuThang");
-            reportViewer1.LocalReport.DataSources.Add(reportDataSource);
-            this.reportViewer1.RefreshReport();
+            if (ReportDataSet != null && ReportDataSet.Tables.Count > 0 && ReportDataSet.Tables[0].Rows.Count > 0)
+            {
+                reportViewer1.ProcessingMode = Microsoft.Reporting.WinForms.ProcessingMode.Local;
+                reportViewer1.LocalReport.ReportPath = "Report1.rdlc";
+
+                ReportDataSource rds = new ReportDataSource();
+                rds.Name = "DataSet1";
+                rds.Value = ReportDataSet.Tables[0];
+                reportViewer1.LocalReport.DataSources.Add(rds);
+
+                reportViewer1.RefreshReport();
+            }
         }
 
         private void reportViewer1_Load(object sender, EventArgs e)
